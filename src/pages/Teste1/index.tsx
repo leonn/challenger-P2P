@@ -17,7 +17,6 @@ const Teste1: React.FC = () => {
   const [total, setTotal] = useState(0);
 
   const handleCalcRoute = useCallback(({ label, routes } : Route) => {
-
     setRouteSelected({
       label,
       routes
@@ -25,7 +24,6 @@ const Teste1: React.FC = () => {
 
     let valueTotal = 0;
     let aux = '';
-
     for(let x = 0; x <= routes.length; x ++) {
       aux += routes[x];
 
@@ -34,9 +32,7 @@ const Teste1: React.FC = () => {
 
         if (route.length !== 0) {
           valueTotal += route[0].value;
-        
           aux = aux[1];
-
           continue;
         };
         break;

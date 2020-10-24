@@ -42,31 +42,28 @@ const Teste3: React.FC = () => {
     setError(false);
 
     text = text.toUpperCase();
-    console.log(text);
+    
 
     for (let x = 0; x <= text.length; x ++) {
       if (!stringValid.includes(text[x])) {
-        alert(text[x])
         setError(true);
         return;
       }
 
+      setValue(text);
+
       const value = tabValue.filter(item => item.id === text[x]);
 
       setConvert(convert + value[0].value);
-
     };
-
-    setValue('Leandro');
     
-
   };
 
   return (
       <Container>
           <h1>Teste 3 - guia do comerciante para a galáxia</h1>
           <Content>
-            <h2>Tabelas de preço, escolha os produtos e veja seus preços</h2>
+            <h2>Tabela de conversão. Digite os digitos válidos !</h2>
             
             <p>I = 1 - V = 5 - X = 10 - L = 100 - D = 500 - M = 1000</p>
 

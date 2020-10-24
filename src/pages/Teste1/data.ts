@@ -1,11 +1,7 @@
 const values = [
-    {
-        id: 'AB',
-        value: 5
-    },
-    {
-        id: 'BC',
-        value: 4
+    { id: 'AB',value: 5 },{id: 'BC',value: 4
+        
+        
     },
     {
         id: 'CD',
