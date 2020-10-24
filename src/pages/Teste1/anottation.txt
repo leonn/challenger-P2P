@@ -1,0 +1,38 @@
+A ferrovia local atende várias cidades em Kiwiland. Por 
+questões monetárias, todas as faixas são de 'mão única'. Ou seja, 
+uma rota de Kaitaia a Invercargill não implica a existência de uma rota
+de Invercargill a Kaitaia. Na verdade, mesmo que ambas as rotas existam,
+elas são distintas e não estão necessariamente à mesma distância!
+
+O objetivo desse problema é ajudar a ferrovia a fornecer aos seus 
+clientes informações sobre as rotas. Em particular, você irá calcular 
+a distância ao longo de uma determinada rota, o número de rotas diferentes
+entre duas cidades e a rota mais curta entre duas cidades.
+
+ 
+Entrada: Um gráfico direcionado onde um nó representa uma 
+cidade e uma borda representa uma rota entre duas cidades. O peso da borda 
+representa a distância entre as duas cidades. Uma determinada rota nunca 
+aparecerá mais de uma vez e, para uma determinada rota, a cidade inicial e
+final não serão a mesma. Para o teste de entrada, as cidades são nomeadas 
+usando as primeiras letras do alfabeto de A a D. Uma rota entre duas 
+cidades (A a B) com uma distância de 5 é representada como AB5.
+
+
+Rotas -> A, B, C
+
+ A -> B
+
+ B -> C
+
+ calcular ->
+
+ 1) A distancia de determinada rota
+ 2) O número de rotas diferentes entre duas cidades
+ 3) A rota mais curta entre duas cidades
+
+Para a entrada de teste 1 a 5, se essa rota não existir, 
+imprima 'NO SUCH ROUTE'. Caso contrário, siga a rota conforme fornecida; 
+não faça paradas extras! Por exemplo, o primeiro problema significa começar na cidade A, 
+então viajar diretamente para a cidade B (uma distância de 5) e,
+em seguida, diretamente para a cidade C (uma distância de 4).

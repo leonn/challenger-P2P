@@ -1,0 +1,77 @@
+Problema dois: gerenciamento de trilha de conferência
+
+Você está planejando uma grande conferência de programação e recebeu
+muitas propostas que passaram no processo de tela inicial, mas está
+tendo problemas para encaixá-las nas restrições de tempo do dia - há 
+tantas possibilidades! Então você escreve um programa para fazer isso por você.
+
+A conferência tem várias trilhas, cada uma das quais tem uma 
+sessão pela manhã e pela tarde.
+Cada sessão contém várias palestras.
+As sessões matinais começam às 9h e devem terminar às 12h, para o almoço.
+As sessões da tarde começam às 13h e devem terminar a tempo para 
+o evento de networking.
+O evento de rede não pode começar antes das 4h e não depois das 5h.
+Nenhum título de palestra contém números.
+Todas as durações das conversas são em minutos (não horas) ou relâmpago
+(5 minutos).
+Os apresentadores serão muito pontuais; não precisa haver intervalo 
+entre as sessões.
+
+Observe que, dependendo de como você escolhe resolver este problema, 
+sua solução pode fornecer uma ordem diferente ou combinação de palestras
+em faixas. Isso é aceitável; você não precisa duplicar exatamente a
+saída de amostra fornecida aqui.
+
+ 
+
+Entrada de teste:
+
+Escrevendo testes rápidos em Enterprise Rails 60min
+
+Exagerar em Python 45min
+
+Lua para as Missas 30min
+
+Erros Ruby de versões de gemas incompatíveis de 45 minutos
+
+Erros comuns de Ruby 45min
+
+Rails for Python Developers lightning
+
+Comunicação à distância 60min
+
+Desenvolvimento Orientado a Contabilidade 45min
+
+Woah 30min
+
+Sente-se e escreva 30 minutos
+
+Programação em par vs ruído 45min
+
+Rails Magic 60min
+
+Ruby on Rails: Por que devemos avançar 60min
+
+Clojure Ate Scala (no meu projeto) 45min
+
+Programação no Boondocks de Seattle 30min
+
+Ruby vs. Clojure para desenvolvimento back-end 30min
+
+Manutenção de aplicativo legado Ruby on Rails 60 minutos
+
+Um mundo sem HackerNews 30min
+
+Interface do usuário CSS em aplicativos Rails 30min
+
+
+
+
+
+ // Ordenando o array pelas palestras que possuem um maior tempo
+  // A lógica que vou usar é a mesma que o caixa eletronico usa.
+  // ex: Sacar 200 reais
+  // Procura duas notas de 100
+  // Se tiver apenas uma nota de 100 ? Procura 1 nota de 100 e duas de 50.
+  // Assim por diante 
